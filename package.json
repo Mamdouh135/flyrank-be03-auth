@@ -1,0 +1,20 @@
+{
+  "name": "flyrank-be03-auth",
+  "version": "1.0.0",
+  "description": "FlyRank BE-03 Auth API with Supabase",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
